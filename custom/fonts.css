@@ -1,0 +1,28 @@
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+@font-face {
+	font-family: "Gotham";
+	src: url("/wp-content/themes/stratum/theme/assets/fonts/gotham-book.woff2")
+		format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("/wp-content/themes/stratum/theme/assets/fonts/gotham-medium.woff2")
+		format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("/wp-content/themes/stratum/theme/assets/fonts/gotham-bold.woff2")
+		format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
